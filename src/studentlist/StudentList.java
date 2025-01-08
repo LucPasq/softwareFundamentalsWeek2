@@ -4,18 +4,15 @@
  */
 package studentlist;
 
-/**
- *
- * @author fagun
- */
+
 public class StudentList {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        Student[] studentList = new Student[4];//change size before running
+        
+        Student[] studentList = new Student[4];
         Student s1 = new Student();
         s1.setName("Fagun Vankawala");
         Student s2 = new Student();
@@ -30,7 +27,7 @@ public class StudentList {
         studentList[2] = s3;
         studentList[3] = s4;
         
-        //fill in 4 student names before running
+       
         for (Student s : studentList) {
             System.out.println(s.getName());
         }
