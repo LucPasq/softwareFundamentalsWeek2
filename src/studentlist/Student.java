@@ -20,5 +20,33 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+
+    /**
+     * @return the studentID
+     */
+    public String getStudentID() {
+        return studentID;
+    }
+
+    /**
+     * @param studentID the studentID to set
+     */
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
+    }
+
+    /**
+     * @return the address
+     */
+    public String getAddress() {
+        return address;
+    }
+
+    /**
+     * @param address the address to set
+     */
+    public void setAddress(String address) {
+        this.address = address;
+    }
    
 }
